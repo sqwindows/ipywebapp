@@ -1,0 +1,119 @@
+{
+    "maps": {
+        "name": "simple",
+        "app": {
+            "addons": {},
+            "commands": {},
+            "configs": {
+                "build": "app.simple.backend.configs.build",
+                "windows": "app.simple.backend.configs.windows"
+            },
+            "controllers": {
+                "app": "app.simple.backend.controllers.app"
+            },
+            "httpControllers": {},
+            "events/register": {},
+            "events/listener": {},
+            "preloads/block": {},
+            "preloads/process": {},
+            "preloads/thread": {},
+            "services": {},
+            "sockets": {},
+            "queues": {},
+            "crontabs": {},
+            "timers": {},
+            "windowEvents": {}
+        },
+        "ipyweb": {
+            "addons": {
+                "loadingGui": "ipyweb.addons.loadingGui"
+            },
+            "commands": {
+                "ipywebBaser": "ipyweb.commands.ipywebBaser",
+                "ipywebBuilder": "ipyweb.commands.ipywebBuilder",
+                "ipywebRunner": "ipyweb.commands.ipywebRunner"
+            },
+            "configs": {
+                "app": "ipyweb.configs.app",
+                "build": "ipyweb.configs.build",
+                "cache": "ipyweb.configs.cache",
+                "database": "ipyweb.configs.database",
+                "jsonFile": "ipyweb.configs.jsonFile",
+                "logger": "ipyweb.configs.logger",
+                "windows": "ipyweb.configs.windows"
+            },
+            "controllers": {
+                "ipyweb": "ipyweb.controllers.ipyweb"
+            },
+            "httpControllers": {},
+            "events/register": {
+                "windows": "ipyweb.events.register.windows"
+            },
+            "events/listener": {
+                "windows": "ipyweb.events.listener.windows"
+            },
+            "preloads/block": {
+                "controllerPreload": "ipyweb.preloads.block.controllerPreload",
+                "guiPreload": "ipyweb.preloads.block.guiPreload",
+                "processPreload": "ipyweb.preloads.block.processPreload"
+            },
+            "preloads/process": {
+                "examplePreload": "ipyweb.preloads.process.examplePreload"
+            },
+            "preloads/thread": {
+                "crontabPreload": "ipyweb.preloads.thread.crontabPreload",
+                "queuePreload": "ipyweb.preloads.thread.queuePreload",
+                "socketPreload": "ipyweb.preloads.thread.socketPreload",
+                "timerPreload": "ipyweb.preloads.thread.timerPreload"
+            },
+            "services": {
+                "crontab": "ipyweb.services.crontab",
+                "queue": "ipyweb.services.queue",
+                "socketClient": "ipyweb.services.socketClient",
+                "socketServer": "ipyweb.services.socketServer",
+                "timer": "ipyweb.services.timer"
+            },
+            "sockets": {},
+            "queues": {},
+            "crontabs": {},
+            "timers": {},
+            "windowEvents": {
+                "main": "ipyweb.windowEvents.main"
+            }
+        }
+    },
+    "modules": [
+        "app.simple.runner",
+        "ipyweb.addons.loadingGui",
+        "ipyweb.commands.ipywebBaser",
+        "ipyweb.commands.ipywebBuilder",
+        "ipyweb.commands.ipywebRunner",
+        "app.simple.backend.configs.build",
+        "app.simple.backend.configs.windows",
+        "ipyweb.configs.app",
+        "ipyweb.configs.build",
+        "ipyweb.configs.cache",
+        "ipyweb.configs.database",
+        "ipyweb.configs.jsonFile",
+        "ipyweb.configs.logger",
+        "ipyweb.configs.windows",
+        "app.simple.backend.controllers.app",
+        "ipyweb.controllers.ipyweb",
+        "ipyweb.events.register.windows",
+        "ipyweb.events.listener.windows",
+        "ipyweb.preloads.block.controllerPreload",
+        "ipyweb.preloads.block.guiPreload",
+        "ipyweb.preloads.block.processPreload",
+        "ipyweb.preloads.process.examplePreload",
+        "ipyweb.preloads.thread.crontabPreload",
+        "ipyweb.preloads.thread.queuePreload",
+        "ipyweb.preloads.thread.socketPreload",
+        "ipyweb.preloads.thread.timerPreload",
+        "ipyweb.services.crontab",
+        "ipyweb.services.queue",
+        "ipyweb.services.socketClient",
+        "ipyweb.services.socketServer",
+        "ipyweb.services.timer",
+        "ipyweb.windowEvents.main"
+    ]
+}

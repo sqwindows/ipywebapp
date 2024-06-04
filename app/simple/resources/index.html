@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ipyweb</title>
+</head>
+<body>
+Hello ipyweb!
+</body>
+<script>
+
+    window.addEventListener('pywebviewready', function () {
+        pywebview.api.invoke('app/version').then(response => {
+            console.info(response)
+        }).catch(error => {
+            console.warn(error)
+        })
+    })
+
+
+</script>
+</html>

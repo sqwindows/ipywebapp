@@ -1,0 +1,6 @@
+cefpython3
+qtpy
+pyside2
+
+#pip install qtpy pyside2 cefpython3
+
