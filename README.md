@@ -33,10 +33,21 @@
 - 打包便捷：内置打包命令、安装包制作命令，设置配置文件即可
 - 多应用支持：多个应用支持，调试、编译时换个应用名称即可
 
-## 案例图片 
+## windows平台
 
-[case01]: https://saas.maoren.la/app/ipyweb/readme/images/case01.png "ipyweb"
-![案例][case01]
+[windows]: https://saas.maoren.la/app/ipyweb/readme/images/windows.png "ipyweb"
+![ipyweb][windows]
+
+## mac平台
+
+[mac]: https://saas.maoren.la/app/ipyweb/readme/images/mac.png "ipyweb"
+![ipyweb][mac]
+
+## linux平台
+
+[linux]: https://saas.maoren.la/app/ipyweb/readme/images/linux.png "ipyweb"
+![ipyweb][linux]
+
 
 ## 使用文档
 
