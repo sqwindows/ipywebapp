@@ -1,56 +1,56 @@
 {
     "maps": {
-        "name": "demo",
+        "name": "doc",
         "app": {
             "addons": {
-                "autoUpdater": "app.demo.backend.addons.autoUpdater"
+                "autoUpdater": "app.doc.backend.addons.autoUpdater"
             },
             "commands": {
-                "example": "app.demo.backend.commands.example"
+                "example": "app.doc.backend.commands.example"
             },
             "configs": {
-                "app": "app.demo.backend.configs.app",
-                "build": "app.demo.backend.configs.build",
-                "database": "app.demo.backend.configs.database",
-                "windows": "app.demo.backend.configs.windows"
+                "app": "app.doc.backend.configs.app",
+                "build": "app.doc.backend.configs.build",
+                "database": "app.doc.backend.configs.database",
+                "windows": "app.doc.backend.configs.windows"
             },
             "controllers": {
-                "app": "app.demo.backend.controllers.app"
+                "app": "app.doc.backend.controllers.app"
             },
             "httpControllers": {
-                "app": "app.demo.backend.httpControllers.app"
+                "app": "app.doc.backend.httpControllers.app"
             },
             "events/register": {
-                "example": "app.demo.backend.events.register.example"
+                "example": "app.doc.backend.events.register.example"
             },
             "events/listener": {
-                "example": "app.demo.backend.events.listener.example",
-                "user": "app.demo.backend.events.listener.user"
+                "example": "app.doc.backend.events.listener.example",
+                "user": "app.doc.backend.events.listener.user"
             },
             "preloads/block": {},
             "preloads/process": {
-                "fastAPI": "app.demo.backend.preloads.process.fastAPI"
+                "fastAPI": "app.doc.backend.preloads.process.fastAPI"
             },
             "preloads/thread": {
-                "test2": "app.demo.backend.preloads.thread.test2"
+                "test2": "app.doc.backend.preloads.thread.test2"
             },
             "services": {},
             "sockets": {
-                "example": "app.demo.backend.sockets.example"
+                "example": "app.doc.backend.sockets.example"
             },
             "queues": {
-                "example": "app.demo.backend.queues.example",
-                "test": "app.demo.backend.queues.test"
+                "example": "app.doc.backend.queues.example",
+                "test": "app.doc.backend.queues.test"
             },
             "crontabs": {
-                "clear": "app.demo.backend.crontabs.clear",
-                "test": "app.demo.backend.crontabs.test"
+                "clear": "app.doc.backend.crontabs.clear",
+                "test": "app.doc.backend.crontabs.test"
             },
             "timers": {
-                "example": "app.demo.backend.timers.example"
+                "example": "app.doc.backend.timers.example"
             },
             "windowEvents": {
-                "main": "app.demo.backend.windowEvents.main"
+                "main": "app.doc.backend.windowEvents.main"
             }
         },
         "ipyweb": {
@@ -112,17 +112,17 @@
         }
     },
     "modules": [
-        "app.demo.runner",
-        "app.demo.backend.addons.autoUpdater",
+        "app.doc.runner",
+        "app.doc.backend.addons.autoUpdater",
         "ipyweb.addons.loadingGui",
-        "app.demo.backend.commands.example",
+        "app.doc.backend.commands.example",
         "ipyweb.commands.ipywebBaser",
         "ipyweb.commands.ipywebBuilder",
         "ipyweb.commands.ipywebRunner",
-        "app.demo.backend.configs.app",
-        "app.demo.backend.configs.build",
-        "app.demo.backend.configs.database",
-        "app.demo.backend.configs.windows",
+        "app.doc.backend.configs.app",
+        "app.doc.backend.configs.build",
+        "app.doc.backend.configs.database",
+        "app.doc.backend.configs.windows",
         "ipyweb.configs.app",
         "ipyweb.configs.build",
         "ipyweb.configs.cache",
@@ -130,20 +130,20 @@
         "ipyweb.configs.jsonFile",
         "ipyweb.configs.logger",
         "ipyweb.configs.windows",
-        "app.demo.backend.controllers.app",
+        "app.doc.backend.controllers.app",
         "ipyweb.controllers.ipyweb",
-        "app.demo.backend.httpControllers.app",
-        "app.demo.backend.events.register.example",
+        "app.doc.backend.httpControllers.app",
+        "app.doc.backend.events.register.example",
         "ipyweb.events.register.windows",
-        "app.demo.backend.events.listener.example",
-        "app.demo.backend.events.listener.user",
+        "app.doc.backend.events.listener.example",
+        "app.doc.backend.events.listener.user",
         "ipyweb.events.listener.windows",
         "ipyweb.preloads.block.controllerPreload",
         "ipyweb.preloads.block.guiPreload",
         "ipyweb.preloads.block.processPreload",
-        "app.demo.backend.preloads.process.fastAPI",
+        "app.doc.backend.preloads.process.fastAPI",
         "ipyweb.preloads.process.examplePreload",
-        "app.demo.backend.preloads.thread.test2",
+        "app.doc.backend.preloads.thread.test2",
         "ipyweb.preloads.thread.crontabPreload",
         "ipyweb.preloads.thread.queuePreload",
         "ipyweb.preloads.thread.socketPreload",
@@ -153,13 +153,13 @@
         "ipyweb.services.socketClient",
         "ipyweb.services.socketServer",
         "ipyweb.services.timer",
-        "app.demo.backend.sockets.example",
-        "app.demo.backend.queues.example",
-        "app.demo.backend.queues.test",
-        "app.demo.backend.crontabs.clear",
-        "app.demo.backend.crontabs.test",
-        "app.demo.backend.timers.example",
-        "app.demo.backend.windowEvents.main",
+        "app.doc.backend.sockets.example",
+        "app.doc.backend.queues.example",
+        "app.doc.backend.queues.test",
+        "app.doc.backend.crontabs.clear",
+        "app.doc.backend.crontabs.test",
+        "app.doc.backend.timers.example",
+        "app.doc.backend.windowEvents.main",
         "ipyweb.windowEvents.main"
     ]
 }
