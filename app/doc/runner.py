@@ -4,6 +4,7 @@ import traceback
 from ipyweb.logger import logger
 from ipyweb.contracts.ipywebRunner import ipywebRunner
 
+
 class runner(ipywebRunner):
     windows = None
     flask = None
@@ -11,7 +12,7 @@ class runner(ipywebRunner):
     def run(self, windows=None):
         self.windows = windows
         try:
-            logger.console.debug(f'demo主进程已经启动 PID：{os.getpid()}')
+            logger.console.info(f'doc 主进程已经启动 PID：{os.getpid()}')
             self.loadJs()
 
             # input('按任意键退出')
@@ -30,4 +31,3 @@ class runner(ipywebRunner):
             """
         )
         return self
-

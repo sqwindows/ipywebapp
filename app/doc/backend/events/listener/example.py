@@ -8,7 +8,7 @@ class example():
     }
 
     def example_event1(self, *args, **kwargs):
-        print('example::event1 recive------------------',args)
+        print('example::event1 recive------------------', args)
 
     def example_event2(self, *args, **kwargs):
         print('example::event2 recive------------------')

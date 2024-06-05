@@ -4,9 +4,7 @@ class example():
     }
 
     def event1(self, eventName='', eventRegister=None):
-        pass
-        # print(f'evnet1 register ok')
+        print(f'evnet1 register ok')
 
     def event2(self, eventName='', eventRegister=None):
-        pass
-        # print(f'evnet2 register ok')
+        print(f'evnet2 register ok')

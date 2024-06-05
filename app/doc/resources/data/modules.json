@@ -24,15 +24,14 @@
                 "example": "app.doc.backend.events.register.example"
             },
             "events/listener": {
-                "example": "app.doc.backend.events.listener.example",
-                "user": "app.doc.backend.events.listener.user"
+                "example": "app.doc.backend.events.listener.example"
             },
             "preloads/block": {},
             "preloads/process": {
                 "fastAPI": "app.doc.backend.preloads.process.fastAPI"
             },
             "preloads/thread": {
-                "test2": "app.doc.backend.preloads.thread.test2"
+                "example": "app.doc.backend.preloads.thread.example"
             },
             "services": {},
             "sockets": {
@@ -43,8 +42,7 @@
                 "test": "app.doc.backend.queues.test"
             },
             "crontabs": {
-                "clear": "app.doc.backend.crontabs.clear",
-                "test": "app.doc.backend.crontabs.test"
+                "example": "app.doc.backend.crontabs.example"
             },
             "timers": {
                 "example": "app.doc.backend.timers.example"
@@ -136,14 +134,13 @@
         "app.doc.backend.events.register.example",
         "ipyweb.events.register.windows",
         "app.doc.backend.events.listener.example",
-        "app.doc.backend.events.listener.user",
         "ipyweb.events.listener.windows",
         "ipyweb.preloads.block.controllerPreload",
         "ipyweb.preloads.block.guiPreload",
         "ipyweb.preloads.block.processPreload",
         "app.doc.backend.preloads.process.fastAPI",
         "ipyweb.preloads.process.examplePreload",
-        "app.doc.backend.preloads.thread.test2",
+        "app.doc.backend.preloads.thread.example",
         "ipyweb.preloads.thread.crontabPreload",
         "ipyweb.preloads.thread.queuePreload",
         "ipyweb.preloads.thread.socketPreload",
@@ -156,8 +153,7 @@
         "app.doc.backend.sockets.example",
         "app.doc.backend.queues.example",
         "app.doc.backend.queues.test",
-        "app.doc.backend.crontabs.clear",
-        "app.doc.backend.crontabs.test",
+        "app.doc.backend.crontabs.example",
         "app.doc.backend.timers.example",
         "app.doc.backend.windowEvents.main",
         "ipyweb.windowEvents.main"

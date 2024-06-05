@@ -1,6 +1,6 @@
 class test():
     ipywebAutoConfig = {
-        'enable': False,  # 是否关闭运行
+        'enable': True,  # 是否关闭运行
     }
 
     def run(self, task):
