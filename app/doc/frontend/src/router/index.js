@@ -9,9 +9,14 @@ const router = createRouter({
             component: () => import('@/views/home/index/IndexView.vue')
         },
         {
-            path: '/example/windows',
-            name: 'example_windows',
-            component: () => import('@/views/home/example/WindowsView.vue')
+            path: '/example/case.windows',
+            name: 'case.windows',
+            component: () => import('@/views/home/example/CaseWindows.vue')
+        },
+          {
+            path: '/example/case.other',
+            name: 'case.other',
+            component: () => import('@/views/home/example/CaseOther.vue')
         }
     ]
 })

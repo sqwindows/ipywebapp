@@ -1,24 +1,14 @@
 <template>
 
-  <div class="indexMenu">
-    <el-menu :default-active="menus.actives" class="menu" :collapse="isCollapse" style="height:100vh">
+  <div class="caseMenu">
+    <el-menu :default-active="menus.actives" class="menu" :collapse="isCollapse" style="height:100vh" :router="true">
       <el-sub-menu v-for="item in menus.lists" :key="item" :index="item.name">
         <template #title>
           <el-icon v-if="item.name =='install'">
             <Lightning color="#409EFF"/>
           </el-icon>
-           <el-icon v-else-if="item.name =='framework'">
-            <Setting color="#409EFF"/>
-          </el-icon>
-           <el-icon v-else-if="item.name =='builder'">
-            <Cpu color="#409EFF"/>
-          </el-icon>
-           <el-icon v-else-if="item.name =='help'">
-            <Warning color="#409EFF"/>
-          </el-icon>
-          <el-icon v-else-if="item.name =='other'">
-            <ToiletPaper color="#409EFF"/>
-          </el-icon>
+
+
           <span style="padding-right: 100px;">{{ item.title }}</span>
         </template>
         <el-menu-item :index="`${item.name}.${x.name}`" v-for="x in item.child" :key="x"
@@ -34,13 +24,13 @@
 </template>
 
 <script>
-import IndexData from "@/views/home/index/IndexData";
+import caseData from "@/views/home/example/CaseData";
 import {ref, onMounted, onUnmounted} from 'vue';
 export default {
-  name: "IndexMenu",
+  name: "caseMenu",
   data() {
     return {
-      menus: IndexData.menus,
+      menus: caseData.menus,
     };
   },
   mounted() {
@@ -72,7 +62,6 @@ export default {
 </script>
 
 <style scoped>
-
 
 
 </style>

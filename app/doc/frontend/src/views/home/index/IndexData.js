@@ -1,6 +1,6 @@
 export default {
     menus: {
-        actives: ['install', 'framework'],
+        actives: 'install.intro',
         lists: [
             {
                 name: 'install',
@@ -101,8 +101,8 @@ export default {
                         title: 'timer 定时器'
                     },
                     {
-                        name: 'controb',
-                        title: 'controb 计划任务'
+                        name: 'crontab',
+                        title: 'crontab 计划任务'
                     },
                     {
                         name: 'thread',

@@ -18,8 +18,9 @@
       <div class="flex-grow"/>
       <!--      <el-menu-item index="/home/down">下载</el-menu-item>-->
       <el-sub-menu index="2">
-        <template #title>关于</template>
-        <el-menu-item index="/example/windows">例子</el-menu-item>
+        <template #title>导航</template>
+        <el-menu-item index="/example/case.windows">演示例子</el-menu-item>
+        <el-menu-item index="/">开发文档</el-menu-item>
       </el-sub-menu>
     </el-menu>
   </el-affix>

@@ -24,7 +24,7 @@ import CommonBase from "@/views/common/CommonBase.vue";
 import IndexMenu from "@/views/home/index/IndexMenu.vue"
 import {useRoute} from "vue-router";
 import {ElMessage} from 'element-plus'
-import 'md-editor-v3/lib/preview.css';
+import '@/assets/preview.css';
 </script>
 <script>
 
@@ -98,6 +98,7 @@ export default {
   padding: 0 10px;
   border-left: 1px solid #eee;
 }
+
 
 </style>
   
